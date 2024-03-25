@@ -1,0 +1,251 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="img/favicon.png" alt="Logo" />
+        <h1 class="header__title">One Page</h1>
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Pricing</a>
+          </li>
+          <li class="header__nav-item header__nav-button">
+            <a href="#" class="btn btn--secondary">Login</a>
+          </li>
+          <li class="header__nav-item header__nav-button">
+            <a href="#" class="btn btn--primary">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home">
+      <section class="banner">
+        <h1 class="banner__title heading-1">Page One Responsive Sass</h1>
+        <p class="banner__text">
+          A minimal and responsive HTML5 landing page built on lightweight,
+          clean and customizable code.
+        </p>
+        <a href="#" class="banner__btn btn btn--primary">Get Started</a>
+      </section>
+      <section class="features">
+        <h2 class="heading-2">Based on Modular Design</h2>
+        <p class="features__text">
+          Build awesome websites or landing pages with simple and independent
+          parts
+        </p>
+        <div class="features__grid">
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-browser"></use>
+            </svg>
+            <p class="features__item-text">Minimal Design</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-gauge"></use>
+            </svg>
+            <p class="features__item-text">Rocket Fast</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-news"></use>
+            </svg>
+            <p class="features__item-text">Custom Framework</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-unread"></use>
+            </svg>
+            <p class="features__item-text">Style Guide</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-code"></use>
+            </svg>
+            <p class="features__item-text">CSS, SASS, JS</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-cog"></use>
+            </svg>
+            <p class="features__item-text">100% Customizable</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-sweden"></use>
+            </svg>
+            <p class="features__item-text">Modular Design</p>
+          </div>
+          <div class="features__item">
+            <svg class="features__icon">
+              <use xlink:href="img/sprite.svg#icon-check"></use>
+            </svg>
+            <p class="features__item-text">HTML 5 Valid</p>
+          </div>
+        </div>
+      </section>
+      <section class="display">
+        <div class="display__content">
+          <h1 class="heading-1">Custom Framework</h1>
+          <p class="display__text">
+            A custom framework that allows you to create a unique and responsive
+            website or landing page
+          </p>
+          <div class="display__icons">
+            <img
+              src="img/logos/logo-html5.png"
+              alt="Logo 1"
+              class="display__icon-img"
+            />
+            <img
+              src="img/logos/logo-css3.png"
+              alt="Logo 2"
+              class="display__icon-img"
+            />
+            <img
+              src="img/logos/logo-sass.png"
+              alt="Logo 3"
+              class="display__icon-img"
+            />
+          </div>
+        </div>
+        <div class="display__content">
+          <img
+            src="img/content/editor.png"
+            alt="content image"
+            class="display__content-img"
+          />
+        </div>
+        <div class="display__content display__content--left">
+          <img
+            src="img/content/sketch.png"
+            alt="content image"
+            class="display__content-img"
+          />
+        </div>
+        <div class="display__content">
+          <h1 class="heading-1">Custom Framework</h1>
+          <p class="display__text">
+            A custom framework that allows you to create a unique and responsive
+            website or landing page
+          </p>
+          <div class="display__icons">
+            <img
+              src="img/logos/logo-sketch.png"
+              alt="Logo 1"
+              class="display__icon-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews__item">
+          <svg class="reviews__item-icon">
+            <use xlink:href="img/sprite.svg#icon-dial-pad"></use>
+          </svg>
+          <p class="reviews__item-title">Easy to Use</p>
+          <p class="reviews__item-text">
+            Each module can easily be turned into a dark version by adding .dark
+            as class.
+          </p>
+        </div>
+        <div class="reviews__item">
+          <svg class="reviews__item-icon">
+            <use xlink:href="img/sprite.svg#icon-user"></use>
+          </svg>
+          <p class="reviews__item-title">Onboarding Screen</p>
+          <p class="reviews__item-text">
+            Each module can easily be turned into a dark version by adding .dark
+            as class.
+          </p>
+        </div>
+        <div class="reviews__item">
+          <svg class="reviews__item-icon">
+            <use xlink:href="img/sprite.svg#icon-tablet"></use>
+          </svg>
+          <p class="reviews__item-title">Unlimited Possibilities</p>
+          <p class="reviews__item-text">
+            Each module can easily be turned into a dark version by adding .dark
+            as class.
+          </p>
+        </div>
+      </section>
+      <section class="Tagline">
+        <h1 class="heading-1--white">And.. Fast. Really Fast.</h1>
+        <p class="tagline__sub-title">
+          The main focus of this template is performance. No bloat.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__menu">
+        <div class="footer__menu-section">
+          <p class="footer__menu-title">Startup</p>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Getting Started</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Resources</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Design</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Tutorials</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer__menu-section">
+          <p class="footer__menu-title">Support</p>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Documentation</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Requirements</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">License</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Updates</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__menu-section">
+          <p class="footer__menu-title">Connect</p>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Twitter</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Facebook</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Instagram</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Medium</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__form">
+        <p class="footer__form-title">Join Newsletter</p>
+        <p class="footer__form-text">
+          Get the latest news and resources right into your inbox every monday.
+        </p>
+        <form action="#" class="footer__form-input">
+          <input
+            type="email"
+            class="footer__form-email"
+            placeholder="Enter your email"
+          />
+          <button class="footer__form-btn btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer__copyright">
+        Copyright &copy; Ibadurahman Hanif. all rights reserved.
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./js/main.js"></script>
+</html>

@@ -1,0 +1,69 @@
+html:not([data-scroll='0']) .header{
+    background-color: $color-white;
+    border-bottom: 1px solid $color-light-grey-1;
+    box-shadow: 0rem 0.5rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    grid-row: 1 / 2;
+    grid-column: side-start / side-end;
+
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    width: 100%;
+    transition: all .3s;
+    
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $color-black;
+
+        img {
+            width: 3rem;
+            height: 3rem;
+            margin-right: 1rem;
+        }
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    &__nav-list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        padding: 1rem 0;
+    }
+
+    &__nav-item {
+        padding: 0 2rem;
+    }
+
+    &__nav-button{
+        padding: 0 1rem;
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    &__nav-link {
+        text-decoration: none;
+        color: $color-black;
+        font-size: 1.6rem;
+        font-weight: 400;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}
