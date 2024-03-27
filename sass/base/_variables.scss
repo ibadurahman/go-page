@@ -18,3 +18,10 @@ $color-white: #fff;
 
 // Primary Font
 $font: Lato, Roboto, sans-serif; 
+
+// Responsive Breakpoints
+$bp-largest-2: 87.5em; // 1350px
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px 
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
